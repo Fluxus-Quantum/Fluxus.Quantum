@@ -12,7 +12,7 @@ const CurrencySelector: React.FC<CurrencySelectorProps> = ({
   const currencies = ['COP', 'USD', 'EUR'];
 
   return (
-    <div className="currency-selector">
+    <div className="currency-selector"; style={{ margin: '10px' }}}>
       <label htmlFor="currency">Selecciona tu moneda: </label>
       <select 
         id="currency" 
