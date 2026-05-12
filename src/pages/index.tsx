@@ -10,10 +10,7 @@ import CurrencySelector from './CurrencySelector';
   
     <main style={{ fontFamily: "sans-serif" }}
   
-<CurrencySelector 
-  currentCurrency={currentCurrency} 
-  onCurrencyChange={setCurrentCurrency} 
-/>
+
    >
 
       {/* HERO */}
@@ -26,6 +23,11 @@ import CurrencySelector from './CurrencySelector';
         textAlign: "center",
         padding: "40px"
       }}>
+
+<CurrencySelector 
+  currentCurrency={currentCurrency} 
+  onCurrencyChange={setCurrentCurrency} 
+/>
         
         <h1 style={{ fontSize: "42px", maxWidth: "800px" }}>
           Digital Ecosystems that Turn Your Online Presence into Growth
