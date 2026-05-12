@@ -1,8 +1,20 @@
 import React from "react";
 
 const Index = () => {
-  return (
-    <main style={{ fontFamily: "sans-serif" }}>
+  
+import CurrencySelector from './CurrencySelector';
+
+  const [currentCurrency, setCurrentCurrency] = React.useState('COP');
+  
+    return (
+  
+    <main style={{ fontFamily: "sans-serif" }}
+  
+<CurrencySelector 
+  currentCurrency={currentCurrency} 
+  onCurrencyChange={setCurrentCurrency} 
+/>
+   >
 
       {/* HERO */}
       <section style={{ 
