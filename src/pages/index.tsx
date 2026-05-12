@@ -23,12 +23,7 @@ import CurrencySelector from './CurrencySelector';
         textAlign: "center",
         padding: "40px"
       }}>
-
-<CurrencySelector 
-  currentCurrency={currentCurrency} 
-  onCurrencyChange={setCurrentCurrency} 
-/>
-        
+     
         <h1 style={{ fontSize: "42px", maxWidth: "800px" }}>
           Digital Ecosystems that Turn Your Online Presence into Growth
         </h1>
@@ -37,7 +32,7 @@ import CurrencySelector from './CurrencySelector';
           We design strategic websites and intelligent systems that help businesses
           generate opportunities in a structured and professional way.
         </p>
-
+       
         <a
           href="https://wa.me/TUNUMERO?text=Hello,%20I%20would%20like%20information%20about%20Digital%20Ecosystems"
           target="_blank"
